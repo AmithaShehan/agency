@@ -41,3 +41,27 @@
 .services .card {
   border-radius: 15px;
 }
+
+
+
+.services2 img {
+  overflow: hidden;
+  height: 254px; 
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 10px 0 0 10px;
+}
+
+.services2 .card {
+  border-radius: 10px;
+  z-index: 10;
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 767px) {
+  .services2 img {
+      border-radius: 10px 10px 0 0;
+    }
+}

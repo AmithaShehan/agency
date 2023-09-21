@@ -25,16 +25,15 @@
   color: var(--DARK-BLUE);
 }
 
-.services h2{
+/* .services h2{
   color: var(--DARK-BLUE);
-}
+} */
 
 .services img{
   overflow: hidden;
   height: 200px;
   object-fit: cover;
   object-position: center;
-  
   border-radius: 10px 10px 0 0;
 }
 
@@ -43,6 +42,23 @@
 }
 
 
+
+/* .who-we-are{
+  background-color: #061144;
+  height: 400px;
+} */
+/* .who-we-are img{
+  border-radius: 50%;
+} */
+
+
+/* Media Queries */
+
+@media only screen and (max-width: 767px) {
+  .services2 img {
+      border-radius: 10px 10px 0 0;
+    }
+}
 
 .services2 img {
   overflow: hidden;
@@ -56,12 +72,4 @@
 .services2 .card {
   border-radius: 10px;
   z-index: 10;
-}
-
-/* Media Queries */
-
-@media only screen and (max-width: 767px) {
-  .services2 img {
-      border-radius: 10px 10px 0 0;
-    }
 }

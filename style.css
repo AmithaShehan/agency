@@ -1,7 +1,11 @@
 :root{
   --DARK-BLUE: #061144;
   --DARK-BLUE: rgb(6, 17, 68);
+  scroll-behavior: smooth;
+}
 
+html{
+    scroll-behavior: smooth;
 }
 
 #carouselExampleAutoplaying img{
